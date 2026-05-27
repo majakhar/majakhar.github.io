@@ -1,1 +1,0 @@
-# majakhar.github.io
