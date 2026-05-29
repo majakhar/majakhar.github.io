@@ -18,8 +18,8 @@ minimal_mistakes_skin: "dark"
 author:
   name: "Mahendra Singh Jakhar"
   # avatar: "/assets/images/avatar.jpg"  # Add your photo here
-  bio: "Software Engineer • Distributed Systems • LLM Infrastructure"
-  location: "Vancouver, BC"
+  bio: "Platform Engineer | DevOps | SRE"
+  location: "Bangalore, India"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
