@@ -15,18 +15,18 @@ url: "https://majakhar.github.io"
 minimal_mistakes_skin: "air"
 
 # Author info (shows in sidebar)
-author:
-  name: "Mahendra Singh Jakhar"
+# author:
+  # name: "Mahendra Singh Jakhar"
   # avatar: "/assets/images/avatar.jpg"  # Add your photo here
-  bio: "Platform Engineer | DevOps | SRE"
-  location: "Bangalore, India"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/majakhar"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/mahendra-singh-jakhar"
+  # bio: "Platform Engineer | DevOps | SRE"
+  # location: "Bangalore, India"
+  # links:
+  #   - label: "GitHub"
+  #     icon: "fab fa-fw fa-github"
+  #     url: "https://github.com/majakhar"
+  #   - label: "LinkedIn"
+  #     icon: "fab fa-fw fa-linkedin"
+  #     url: "https://linkedin.com/in/mahendra-singh-jakhar"
 
 # Navigation menu (TOP BAR)
 header_pages:
