@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 # Hey, I'm Mahendra
-I'm a Platform(DevOps?? 🤔 ) Engineer with ~10 years of experience. Interest in tools/workflows development, Linux internals and Networking.
+I'm a Platform(DevOps?? 🤔 ) Engineer with ~10 years of experience. Interested in tools development, Linux internals and Networking.
 
 ## Where I've been
 
