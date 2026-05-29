@@ -12,7 +12,7 @@ subtitle: "Platform Engineer | DevOps | SRE"
 name: Mahendra Singh Jakhar
 description: "Engineering blog on Platform Engineering, DevOps, and SRE."
 url: "https://majakhar.github.io"
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "default"
 
 # Author info (shows in sidebar)
 author:
