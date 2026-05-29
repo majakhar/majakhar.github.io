@@ -85,5 +85,5 @@ og_image: /assets/images/default-og.png
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-95QC0Y988E"
+    tracking_id: "G-5BZWVZN2HH"
 
