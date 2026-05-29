@@ -1,55 +1,89 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-title: "Mahendra Singh Jakhar"
-email: mahendra0939@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This is a personal blog by Mahendra Singh Jakhar. 
-  I write about DevOps, SRE, and Platform Engineering. 
-  I am a Platform engineer with a passion for learning and sharing knowledge.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://majakhar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: mahendra0939
-github_username:  majakhar
-
-# Build settings
-theme: minima
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Site settings
+title: Mahendra Singh Jakhar
+subtitle: "Platform Engineer | DevOps | SRE"
+name: Mahendra Singh Jakhar
+description: "Engineering blog on Platform Engineering, DevOps, and SRE."
+url: "https://majakhar.github.io"
+minimal_mistakes_skin: "dark"
+
+# Author info (shows in sidebar)
+author:
+  name: "Mahendra Singh Jakhar"
+  # avatar: "/assets/images/avatar.jpg"  # Add your photo here
+  bio: "Software Engineer • Distributed Systems • LLM Infrastructure"
+  location: "Vancouver, BC"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/majakhar"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/mahendra-singh-jakhar"
+
+# Navigation menu (TOP BAR)
+header_pages:
+  - about.md
+  - projects.md
+
+# Or use this for more control:
+navigation:
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
+    url: /
+
+# Footer links
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/majakhar"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/mahendra-singh-jakhar"
+
+# Post defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true
+      toc_sticky: true
+      header:
+        overlay_color: "#1a1a2e"
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Reading time, comments, etc.
+read_time: true
+words_per_minute: 200
+
+# SEO
+twitter:
+  username: mahendra0939  # Update if you have Twitter
+og_image: /assets/images/default-og.png
+
+# Analytics (optional)
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-95QC0Y988E"
+
